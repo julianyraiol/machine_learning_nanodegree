@@ -1,4 +1,4 @@
-# machine_learning_nanodegree
+# Machine Learning Studies
 
 Repositório contendo exemplos e implementações de algoritmos de Machine Learning.
 
