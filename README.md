@@ -1,8 +1,32 @@
 # machine_learning_nanodegree
 
-I will share some code and explanation about machine learning nanodegree by udacity. 
-machine_learning_nanodegree
+Repositório contendo exemplos e implementações de algoritmos de Machine Learning.
 
-1. Regressão Linear
-2. Perceptron
+- Regressão Linear
+- Perceptron
+- Natural Processing Language
+
+### Instalação
+Este projeto requer **Python 3.+** e as seguintes bibliotecas de Python instaladas:
+
+- [NumPy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org/)
+- [matplotlib](http://matplotlib.org/)
+- [NLTK](https://www.nltk.org/)
+- [scikit-learn](http://scikit-learn.org/stable/)
+
+
+Você também precisa ter o [Jupyter Notebook](http://ipython.org/notebook.html) para manipular e visualizar as análises disponibilizadas.  
+
+Se você não possui Python instalado ainda, é recomendado que você instale a distribuição [Anaconda](http://continuum.io/downloads), que já possui pacotes e muito mais bibliotecas instaladas. Atente na seleção do versão da linguagem. Escolha o Python 3.+ e não 2.7.
+
+### Executar
+
+No seu terminal, execute os seguintes comandos:
+
+```bash
+$ git https://github.com/julianyraiol/machine_learning_studies
+$ cd machine_learning_studies
+$ jupyter notebook
+```
 
