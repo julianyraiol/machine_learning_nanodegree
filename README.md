@@ -14,6 +14,7 @@ Este projeto requer **Python 3.+** e as seguintes bibliotecas de Python instalad
 - [matplotlib](http://matplotlib.org/)
 - [NLTK](https://www.nltk.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
+- [Word Cloud](https://github.com/amueller/word_cloud)
 
 
 Você também precisa ter o [Jupyter Notebook](http://ipython.org/notebook.html) para manipular e visualizar as análises disponibilizadas.  
