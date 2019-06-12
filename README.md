@@ -4,7 +4,7 @@ Repositório contendo exemplos e implementações de algoritmos de Machine Learn
 
 - Regressão Linear
 - Perceptron
-- Natural Processing Language
+- [Natural Processing Language](https://github.com/julianyraiol/machine_learning_studies/tree/master/NLP)
 
 ### Instalação
 Este projeto requer **Python 3.+** e as seguintes bibliotecas de Python instaladas:
