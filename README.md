@@ -31,3 +31,6 @@ $ cd machine_learning_studies
 $ jupyter notebook
 ```
 
+Contribuições
+
+Caso haja alguma algoritmo ou método que deseje incluir ou melhorar, sinta-se à vontade para contruibuir com o repositório! <3 
