@@ -46,21 +46,21 @@ def remove_stop_words(text):
     text = unidecode.unidecode(text).lower()
     token_punct = tokenize.WordPunctTokenizer()
     token = token_punct.tokenize(text)
+    stemmer = nltk.RSLPStemmer()
 
     words = nltk.corpus.stopwords.words('portuguese')
     words_without_accent = [unidecode.unidecode(item) for item in words]
     stopwords = words + words_without_accent + list(punctuation)
 
-    without_stop_words = [item for item in token if item not in stopwords]
+    without_stop_words = [stemmer.stem(item) for item in token if item not in stopwords]
     
     return " ".join(without_stop_words)
 
 def pareto(all_words):
-	
-	token_whitespace = nltk.WhitespaceTokenizer()
-	token = token_whitespace.tokenize(all_words)
-	frequency = nltk.FreqDist(token)
 
-	df_frequency = pd.DataFrame({'word': list(frequency.keys()), 'frequency': list(frequency.values())})
-
-	return df_frequency
+    token_whitespace = nltk.WhitespaceTokenizer()
+    token = token_whitespace.tokenize(all_words)
+    frequency = nltk.FreqDist(token)
+    
+    df_frequency = pd.DataFrame({'word': list(frequency.keys()), 'frequency': list(frequency.values())})
+    return df_frequency
