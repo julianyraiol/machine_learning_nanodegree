@@ -2,15 +2,15 @@
 
 ### Conceitos Utilizados
 
->> Bag of words
+* Bag of words
 
->> Cloud of words
+* Cloud of words
 
->> Logistic Regression
+* Logistic Regression
 
->> TF-IDF
+* TF-IDF
 
->> Ngrams
+* Ngrams
 
 
 
