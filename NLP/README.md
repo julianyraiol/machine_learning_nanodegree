@@ -1,7 +1,16 @@
 # Natural Processing Languagem (NLP)
 
+### Conceitos Utilizados
 
-Utiliza Bag of Words
+>> Bag of words
+
+>> Cloud of words
+
+>> Logistic Regression
+
+>> TF-IDF
+
+>> Ngrams
 
 
 
