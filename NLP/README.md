@@ -8,6 +8,8 @@
 
 * Logistic Regression
 
+* TF-IDF
+
 * Ngrams
 
 
