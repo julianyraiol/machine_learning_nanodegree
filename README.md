@@ -2,7 +2,7 @@
 
 Repositório contendo exemplos e implementações de algoritmos de Machine Learning.
 
-- [Regressão Linear]((https://github.com/julianyraiol/machine_learning_studies/tree/master/NLP)
+- [Regressão Linear](https://github.com/julianyraiol/machine_learning_studies/tree/master/Regressao_Linear)
 - Perceptron
 - [Natural Processing Language](https://github.com/julianyraiol/machine_learning_studies/tree/master/NLP)
 
